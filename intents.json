@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to our restaurant. How can I assist you today?",
+        "Hello, thanks for visiting",
+        "Hi there! Welcome to our restaurant. What can I do for you?",
+        "Hi there! Welcome to our restaurant. How can I help?",
+        "Good day! Welcome to our restaurant. What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "restaurant_info",
+      "patterns": [
+        "Tell me about your restaurant",
+        "Can you describe your restaurant?",
+        "What kind of food do you serve?",
+        "What’s your restaurant like?",
+        "Give me some details about your place"],
+      "responses": [
+        "Our restaurant offers a warm and inviting atmosphere with delicious international cuisines. We serve a wide range of dishes, from classic comfort foods to modern culinary creations."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "Can I order takeout?",
+        "Do you deliver?",
+        "How do I place a delivery order?",
+        "Can I pick up my order?",
+        "Do you offer delivery service?"
+      ],
+      "responses": [
+        "We provide delivery within a 5-mile radius and takeout is available any time during our working hours.You can place a takeout order directly on our website or call us for delivery options."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What’s on your menu?",
+        "Show me the menu",
+        "Do you have vegan options?",
+        "What dishes do you offer?",
+        "Can I see the menu?"
+      ],
+      "responses": [
+        "We have a diverse menu with options for every taste, including vegan and gluten-free dishes. You can check our full menu on our website"
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Can I book a table?",
+        "How do I make a reservation?",
+        "I want to reserve a table for two",
+        "Do you accept reservations?",
+        "Can I schedule a dinner for Friday?"
+      ],
+      "responses": [
+        "You can book a table by calling us or using the reservation system on our website. Additionally, if you have any special requests or require assistance, please don't hesitate to let us know."
+      ]
+    },
+    {
+      "tag": "operating_hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What time do you close?",
+        "Are you open on weekends?",
+        "Can I come in at 10 PM?"
+      ],
+      "responses": [
+        "We are open from 11 AM to 10 PM on weekdays, and from 9 AM to 11 PM on weekends."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "What’s your phone number?",
+        "How can I contact you?",
+        "Do you have an website?",
+        "How do I reach your restaurant?",
+        "Can I call you?"
+      ],
+      "responses": [
+        "You can reach us at (555) 123-4567 or wisit our webite www.cafethevibe.lk ."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is your restaurant located?",
+        "What is your address?",
+        "How can I get to your restaurant?",
+        "Where are you?",
+        "Can you give me directions to your place?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, right in the heart of downtown. You can check on our website as well "
+      ]
+    }
+  ]
+}
